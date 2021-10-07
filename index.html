@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Javascript practices</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- <h5><u>Work From Ojit Deb Nath</u> </h5> -->
+    <marquee scrollamount="3" behavior="scroll" direction="left" onmouseover="this.stop();" onmouseout="this.start();">
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae, placeat sed? Ipsam repellat ab, vel necessitatibus accusantium soluta rem aspernatur consectetur nulla dicta aut modi!</p>
+    </marquee>
+    <div class="viewdis">
+        <div class="addition mr">
+            <p>Additon that numbers 10 + 20</p>
+            <h2 id="result"></h2>
+            <button onclick="addition(10,20);">click for result</button>
+        </div>
+
+        <div class="addition">
+            <p>Subtraction that numbers 10 - 20</p>
+            <h2 id="subtraction"></h2>
+            <button onclick="subtraction(10,20);">click for result</button>
+        </div>
+
+        <div class="addition">
+            <p>Multiplication that numbers 10 * 20</p>
+            <h2 id="multiplication"></h2>
+            <button onclick="multiplication(10,20);">click for result</button>
+        </div>
+
+        <div class="addition">
+            <p>Division that numbers 10 / 20</p>
+            <h2 id="divison"></h2>
+            <button onclick="divison(10,20);">click for result</button>
+        </div>
+
+        <div class="addition">
+            <p>Math rounded that numbers 10 % 20</p>
+            <h2 id="modulus"></h2>
+            <button onclick="modulus(10,20);">click for result</button>
+        </div>
+
+        <div class="addition">
+            <p>Math ceil that numbers 10 % 20</p>
+            <h2 id="modulusUp"></h2>
+            <button onclick="modulusUp(10.6,20);">click for result</button>
+        </div>
+
+        <div class="addition">
+            <p>Math floor that numbers 10 % 20</p>
+            <h2 id="modulusDown"></h2>
+            <button onclick="modulusDown(10,20)">click for result</button>
+        </div>
+
+        <div class="addition">
+            <p>Characters counter box </p>
+            <textarea id="textarea" onkeyup="totalCounter();"></textarea>
+            <p>Total Characters: <span id="counter"></span>/<span id="remain"></span></p>
+        </div>
+
+    </div>
+
+    <script src="js/coustom.js">
+
+    </script>
+</body>
+</html>
